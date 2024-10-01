@@ -53,8 +53,7 @@ public class BOJ_1021 {
                 }
             } else {
                 //System.out.println("index : " + index);
-                //for(int j = list.size(); j > index; j--) {
-                for (int j = 0; j < list.size() - index; j++) {
+                for(int j = list.size(); j > index; j--) {
                     //System.out.println("3번 방식 실행");
 
                     list.addFirst(list.pollLast());
