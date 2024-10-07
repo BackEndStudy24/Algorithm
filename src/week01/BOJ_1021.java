@@ -32,6 +32,7 @@ public class BOJ_1021 {
 
         int count = 0;
 
+
         for (int i = 0; i < selectList.size(); i++) {
 
             int index = list.indexOf(selectList.get(i));
